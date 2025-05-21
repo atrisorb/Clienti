@@ -9,7 +9,7 @@ app.config['PORT'] = int(os.environ.get('PORT', 10000))
 db = SQLAlchemy(app)
 
 class Cliente(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary key=True)
     nome = db.Column(db.String(100), nullable=False)
     settore = db.Column(db.String(100), nullable=False)
     iniziative = db.Column(db.Text, nullable=False)
