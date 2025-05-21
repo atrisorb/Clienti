@@ -23,7 +23,7 @@
     <main>
         <section id="filters">
             <h2>Filtri di Ricerca</h2>
-            /
+            <form>
                 <label for="settore">Settore:</label>
                 <input type="text" id="settore" name="settore">
                 <label for="iniziative">Iniziative:</label>
